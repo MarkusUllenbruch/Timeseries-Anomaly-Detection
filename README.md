@@ -1,5 +1,5 @@
 # Anomaly-Detection & Classification of Time-Series Data
-# Using Fully Connected, LSTM and CNN1D Autoencoder Neural Networks
+## Using FC, LSTM and CNN1D Autoencoder Neural Networks
 
 
 This is my latest project in which I want to analyze univariate time series data with autoencoder neural networks. I want to implement:
@@ -7,9 +7,9 @@ This is my latest project in which I want to analyze univariate time series data
 - Classification
 of time series data using an Autoencoder (AE) and Variational Autoencoder (VAE) Neural Networks.
 I will test the different Network Architectures
-- Fully Connected 
-- LSTM
-- 1D Convolutional
+- Fully Connected (FC)
+- Long-Short-Term-Memory (LSTM)
+- 1D Convolutional (CNN1D)
 Neural Networks based on their performance on different metrics like Accuracy, Precision and Recall.
 
 ## The Data
