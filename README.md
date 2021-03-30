@@ -6,11 +6,13 @@ The used dataset is the ECG5000, which contains biosignals from humans. The data
 
 <img src="Plots/Dataset.png" width="360"> <img src="Plots/Data_distribution.png" width="360">
 
+In the left picture you can see the average of the timeseries samples with one standard deviation of the healthy signals in green and the average of the anomaly samples of the signals in blue. In the right plot, you can see the distribution of the dataset - we have a large amount of healthy timeseries sequences (label 1) and a large amount of anomalies (label 2, 3, 4 and 5). The labels 2, 3, 4, 5 are different conditions, but they are all anomaly sequences.
+
+The healthy and normal sequence of the whole dataset is seen in the following plot, averaged over all healthy sequences:
 <img src="Plots/1.png" width="180">
 
+All the sequences, that are classified as the anomalies are presented below, each averaged over all sequences of the same label:
 <img src="Plots/2.png" width="180"> <img src="Plots/3.png" width="180"> <img src="Plots/4.png" width="180">  <img src="Plots/5.png" width="180">
-
-In the left picture you can see the average of the timeseries samples with one standard deviation of the healthy signals in green and the average of the anomaly samples of the signals in blue. In the right plot, you can see the distribution of the dataset - we have a large amount of healthy timeseries sequences (label 1) and a large amount of anomalies (label 2, 3, 4 and 5). The labels 2, 3, 4, 5 are different conditions, but they are all anomaly sequences.
 
 ## Goals
 I want to implement:
