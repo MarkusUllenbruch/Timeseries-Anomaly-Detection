@@ -1,7 +1,7 @@
 # Anomaly-Detection & Classification of Time-Series Data
 ## Using FC, LSTM and CNN1D Autoencoder Neural Networks
 
-<img src="Plots/Dataset.png" width="300"> <img src="Plots/Data_distribution.png" width="300">
+<img src="Plots/Dataset.png" width="400"> <img src="Plots/Data_distribution.png" width="400">
 
 ## Goals
 This is my latest project in which I want to analyze univariate time series data with autoencoder neural networks. I want to implement:
