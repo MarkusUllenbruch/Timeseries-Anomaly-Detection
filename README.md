@@ -36,7 +36,7 @@ Autoencoder Neural Networks, in general, crunches the high-dimensional data into
 Image Source: https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html
 
 The Input data is inputed into the Encoder Neural Network and is crunched into a low dimensional representation. The number of Parameters, that describe this low-dimensional representation is much smaller than the inputed original data. For example the Input is a timeseries sample with 500 timesteps, then the data could be crunched by the Encoder into a vector representation with only 20 entries - This is called the Bottleneck or Bottleneck-Layer or Latent-Representation.
-The Decoder inputs the low dimensional representation of the data and crunches the data back into the shape of the original data sample. The whole Network tries to reconstruct its own input! This is why it is trained without labels - only with features!
+The Decoder takes the low-dimensional representation of the data as input and decrunches the data back into the shape of the original data sample (500). The whole Network therefore does nothing else, as trying to reconstruct its own input! This is why it is trained without labels - only with features! Features in - Features out!
 
 ## Variational Autoencoder (VAE)
 <img src="https://lilianweng.github.io/lil-log/assets/images/vae-gaussian.png" width="500">
