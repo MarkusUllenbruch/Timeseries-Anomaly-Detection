@@ -5,6 +5,7 @@ This is my latest project in which I want to analyze and detect anomalies in uni
 The used dataset is the ECG5000, which contains biosignals from humans. The data is a collection from an electrocardiogram.
 
 <img src="Plots/Dataset.png" width="360"> <img src="Plots/Data_distribution.png" width="360">
+<img src="Plots/1.png" width="200"> <img src="Plots/2.png" width="200"> <img src="Plots/3.png" width="200"> <img src="Plots/4.png" width="200">
 
 In the left picture you can see the average of the timeseries samples with one standard deviation of the healthy signals in green and the average of the anomaly samples of the signals in blue. In the right plot, you can see the distribution of the dataset - we have a large amount of healthy timeseries sequences (label 1) and a large amount of anomalies (label 2, 3, 4 and 5). The labels 2, 3, 4, 5 are different conditions, but they are all anomaly sequences.
 
