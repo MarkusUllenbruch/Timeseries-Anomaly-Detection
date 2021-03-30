@@ -27,7 +27,7 @@ I will test
 - Long-Short-Term-Memory (LSTM)
 - 1D Convolutional (CNN1D)
 
-Neural Networks based on their performance on different metrics like Accuracy, Precision and Recall.
+Autoencoder Neural Network based on their Test Dataset performance with different metrics like Accuracy, Precision and Recall. They will measure the ability of the networks to classify anomalies as such and to differ them from normal samples. After the anomaly detection is implemented and evaluated, I want to classify the time series sequences with supervised learning - Here, the Autoencoder act as a Feature Extractor and we can train the classifier on top of the Encoder Network.
 
 ## Autoencoder (AE)
 Autoencoder Neural Networks, in general, crunches the high-dimensional data into  a compressed, low-dimensional representation of the data and then classifies anomalys based on the reconstruction-error of trying to reconstruct the original data from the compressed and low-dimensional data representation. Autoencoders are therefore a more general and nonlinear form of the linear Principal Component Analysis (PCA).
