@@ -12,7 +12,7 @@ The healthy and normal sequence of the whole dataset is seen in the following pl
 <img src="Plots/1.png" width="240">
 
 All the sequences, that are classified as the anomalies are presented below, each averaged over all sequences of the same label:
-<img src="Plots/2.png" width="240"> <img src="Plots/3.png" width="240"> <img src="Plots/4.png" width="240">  <img src="Plots/5.png" width="240">
+<img src="Plots/2.png" width="230"> <img src="Plots/3.png" width="230"> <img src="Plots/4.png" width="230">  <img src="Plots/5.png" width="230">
 
 ## Goals
 I want to implement:
