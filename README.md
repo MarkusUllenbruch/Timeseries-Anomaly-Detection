@@ -1,10 +1,13 @@
 # Anomaly-Detection & Classification of Time-Series Data
 ## Using FC, LSTM and CNN1D Autoencoder Neural Networks
-
+This is my latest project in which I want to analyze and detect anomalies in univariate time series data with autoencoder neural networks.
+## The Data 
+The used dataset is the ECG5000, which contains biosignals from humans. The data is a collection from an electrocardiogram.
 <img src="Plots/Dataset.png" width="400"> <img src="Plots/Data_distribution.png" width="400">
+In the left picture you can see the average of the timeseries samples with one standard deviation of the healthy signals in green and the average of the anomaly samples of the signals in blue. In the right plot, you can see the distribution of the dataset - we have a large amount of healthy timeseries sequences (label 1) and a large amount of anomalies (label 2, 3, 4 and 5). The labels 2, 3, 4, 5 are different conditions, but they are all anomaly sequences.
 
 ## Goals
-This is my latest project in which I want to analyze univariate time series data with autoencoder neural networks. I want to implement:
+I want to implement:
 - Unsupervised/ Semi Supervised Learning
 - Classification
 of time series data using an Autoencoder (AE) and Variational Autoencoder (VAE) Neural Networks.
@@ -25,10 +28,6 @@ The Decoder inputs the low dimensional representation of the data and crunches t
 ## Variational Autoencoder (VAE)
 <img src="https://lilianweng.github.io/lil-log/assets/images/vae-gaussian.png" width="500">
 --TO COME--
-
-## The Data
-The used dataset is the ECG5000, which contains biosignals from humans. The data is a collection of heartbeats from an electrocardiogram.
-Based on the assumption we will have many healthy samples, but very few abnormal samples, a semi supervised anomaly detection system will be implemented based on AE and VAE neural network structures.
 
 ## Findings 
 --TO COME--
