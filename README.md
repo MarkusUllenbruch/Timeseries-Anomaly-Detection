@@ -11,13 +11,13 @@ In the left picture you can see the average of the timeseries samples with one s
 I want to implement:
 - Unsupervised/ Semi Supervised Learning
 - Classification
-- 
+
 of time series data using an Autoencoder (AE) and Variational Autoencoder (VAE) Neural Networks.
 I will test
 - Fully Connected (FC)
 - Long-Short-Term-Memory (LSTM)
 - 1D Convolutional (CNN1D)
-- 
+
 Neural Networks based on their performance on different metrics like Accuracy, Precision and Recall.
 
 ## Autoencoder (AE)
