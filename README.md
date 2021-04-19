@@ -21,7 +21,7 @@ The Autoencoder with purely Fully Connected Layers, was trained on the normal Tr
 
 <img src="Plots/FC_Training_Histogram.png" width="400"> <img src="Plots/FC_Training_Losses.png" width="400">
 
-We chosse a threshold ba taking the mean of the reconstruction errors of the normal samples plus a hyperparameter times one standart deviation of the reconstruction loss of normal samples. We evaluate the anomaly detection classifier based on reconstruction error with our test dataset. The confusion matrix of Training and Test Dataset can be seen below:
+We choose a threshold ba taking the mean of the reconstruction errors of the normal samples plus a hyperparameter times one standart deviation of the reconstruction loss of normal samples. We evaluate the anomaly detection classifier based on reconstruction error with our test dataset. The confusion matrix of Training and Test Dataset can be seen below:
 
 <img src="Plots/cmTraining.png" width="400"> <img src="Plots/cmTest.png" width="400">
 
