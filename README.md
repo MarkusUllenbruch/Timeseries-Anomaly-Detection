@@ -16,6 +16,21 @@ All the sequences, that are classified as the anomalies are presented below, eac
 
 <img src="Plots/2.png" width="200"> <img src="Plots/3.png" width="200"> <img src="Plots/4.png" width="200">  <img src="Plots/5.png" width="200">
 
+## Autoencoder with Fully Connected Layers
+
+<img src="Plots/FC_Training_Histogram.png" width="400"> <img src="Plots/FC_Training_Losses.png" width="400">
+
+<img src="Plots/cmTraining.png" width="400"> <img src="Plots/cmTest.png" width="400">
+
+## Autoencoder with LSTM Layers
+--NEXT-- (Currently working on)
+
+## Autoencoder with Convolutional-1D Layers
+--NEXT--
+
+## Variational Autoencoder
+--NEXT--
+
 ## Goals
 I am going to implement Unsupervised/ Semi Supervised Learning for Anomaly Detection of time series data using an Autoencoder (AE) and Variational Autoencoder (VAE) Neural Networks.
 I will test
@@ -25,13 +40,7 @@ I will test
 
 Autoencoder Neural Network based on their Test Dataset performance with different metrics like Accuracy, Precision and Recall. They will measure the ability of the networks to classify anomalies as such and to differ them from normal samples. After the anomaly detection is implemented and evaluated, I want to classify the time series sequences with supervised learning - Here, the Autoencoder act as a Feature Extractor and we can train the classifier on top of the Encoder Network.
 
-## Fully Connected
-
-<img src="Plots/FC_Training_Histogram.png" width="400"> <img src="Plots/FC_Training_Losses.png" width="400">
-
-<img src="Plots/cmTraining.png" width="400"> <img src="Plots/cmTest.png" width="400">
-
-## Autoencoder (AE)
+## What is an Autoencoder?
 Autoencoder Neural Networks, in general, crunches the high-dimensional data into  a compressed, low-dimensional representation of the data and then classifies anomalys based on the reconstruction-error of trying to reconstruct the original data from the compressed and low-dimensional data representation. Autoencoders are therefore a more general and nonlinear form of the linear Principal Component Analysis (PCA).
 
 <img src="https://lilianweng.github.io/lil-log/assets/images/autoencoder-architecture.png" width="500">
@@ -40,10 +49,7 @@ Image Source: https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-t
 The Input data is inputed into the Encoder Neural Network and is crunched into a low dimensional representation. The number of Parameters, that describe this low-dimensional representation is much smaller than the inputed original data. For example the Input is a timeseries sample with 500 timesteps, then the data could be crunched by the Encoder into a vector representation with only 20 entries - This is called the Bottleneck or Bottleneck-Layer or Latent-Representation.
 The Decoder takes the low-dimensional representation of the data as input and decrunches the data back into the shape of the original data sample (500). The whole Network therefore does nothing else, as trying to reconstruct its own input! This is why it is trained without labels - only with features: Features in - Features out!
 
-## Variational Autoencoder (VAE)
+## What is a Variational Autoencoder?
 <img src="https://lilianweng.github.io/lil-log/assets/images/vae-gaussian.png" width="500">
 
---TO COME--
-
-## Findings 
 --TO COME--
