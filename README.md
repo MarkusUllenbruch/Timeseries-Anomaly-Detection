@@ -29,6 +29,8 @@ Autoencoder Neural Network based on their Test Dataset performance with differen
 
 <img src="Plots/FC_Training_Histogram.png" width="360"> <img src="Plots/FC_Training_Losses.png" width="360">
 
+<img src="Plots/cmTraining.png" width="360"> <img src="Plots/cmTest.png" width="360">
+
 ## Autoencoder (AE)
 Autoencoder Neural Networks, in general, crunches the high-dimensional data into  a compressed, low-dimensional representation of the data and then classifies anomalys based on the reconstruction-error of trying to reconstruct the original data from the compressed and low-dimensional data representation. Autoencoders are therefore a more general and nonlinear form of the linear Principal Component Analysis (PCA).
 
