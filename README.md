@@ -17,17 +17,17 @@ All the sequences, that are classified as the anomalies are presented below, eac
 <img src="Plots/2.png" width="200"> <img src="Plots/3.png" width="200"> <img src="Plots/4.png" width="200">  <img src="Plots/5.png" width="200">
 
 ## Goals
-I want to implement:
-- Unsupervised/ Semi Supervised Learning
-- Classification
-
-of time series data using an Autoencoder (AE) and Variational Autoencoder (VAE) Neural Networks.
+I am going to implement Unsupervised/ Semi Supervised Learning for Anomaly Detection of time series data using an Autoencoder (AE) and Variational Autoencoder (VAE) Neural Networks.
 I will test
 - Fully Connected (FC)
 - Long-Short-Term-Memory (LSTM)
 - 1D Convolutional (CNN1D)
 
 Autoencoder Neural Network based on their Test Dataset performance with different metrics like Accuracy, Precision and Recall. They will measure the ability of the networks to classify anomalies as such and to differ them from normal samples. After the anomaly detection is implemented and evaluated, I want to classify the time series sequences with supervised learning - Here, the Autoencoder act as a Feature Extractor and we can train the classifier on top of the Encoder Network.
+
+## Fully Connected
+
+
 
 ## Autoencoder (AE)
 Autoencoder Neural Networks, in general, crunches the high-dimensional data into  a compressed, low-dimensional representation of the data and then classifies anomalys based on the reconstruction-error of trying to reconstruct the original data from the compressed and low-dimensional data representation. Autoencoders are therefore a more general and nonlinear form of the linear Principal Component Analysis (PCA).
