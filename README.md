@@ -16,19 +16,19 @@ All the sequences, that are classified as the anomalies are presented below, eac
 
 <img src="Plots/2.png" width="200"> <img src="Plots/3.png" width="200"> <img src="Plots/4.png" width="200">  <img src="Plots/5.png" width="200">
 
-## Autoencoder with Fully Connected Layers
+## Results - Autoencoder with Fully Connected Layers
 
 <img src="Plots/FC_Training_Histogram.png" width="400"> <img src="Plots/FC_Training_Losses.png" width="400">
 
 <img src="Plots/cmTraining.png" width="400"> <img src="Plots/cmTest.png" width="400">
 
-## Autoencoder with LSTM Layers
+## Results - Autoencoder with LSTM Layers
 --NEXT-- (Currently working on)
 
-## Autoencoder with Convolutional-1D Layers
+## Results - Autoencoder with Convolutional-1D Layers
 --NEXT--
 
-## Variational Autoencoder
+## Results - Variational Autoencoder
 --NEXT--
 
 ## Goals
