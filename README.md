@@ -27,7 +27,7 @@ Autoencoder Neural Network based on their Test Dataset performance with differen
 
 ## Fully Connected
 
-<img src="Plots/FC_Training_Histogram.png" width="360"> <img src="Plots/FC_Training_Losses.png" width="360">
+<img src="Plots/FC_Training_Histogram.png" width="400"> <img src="Plots/FC_Training_Losses.png" width="400">
 
 <img src="Plots/cmTraining.png" width="400"> <img src="Plots/cmTest.png" width="400">
 
