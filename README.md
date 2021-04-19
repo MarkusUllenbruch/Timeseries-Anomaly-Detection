@@ -17,8 +17,11 @@ All the sequences, that are classified as the anomalies are presented below, eac
 <img src="Plots/2.png" width="200"> <img src="Plots/3.png" width="200"> <img src="Plots/4.png" width="200">  <img src="Plots/5.png" width="200">
 
 ## Results - Autoencoder with Fully Connected Layers
+The Autoencoder with purely Fully Connected Layers, was trained on the normal Training Data. The reconstruction error threshold, that defines wether we classify a timeseries sequence as normal or anomaly, is chosen from the training loss of every samples of the normal training data and the anormal training data. In The left picture we see a histogram of the losses of all training samples. In green, we see the reconstruction error of normal data and in red we see the loss of anomaly data in a histogram. We can clearly differ the normal from the unnormal samples based on the reconstruction error with our eyes!
 
 <img src="Plots/FC_Training_Histogram.png" width="400"> <img src="Plots/FC_Training_Losses.png" width="400">
+
+We chosse a threshold ba taking the mean of the reconstruction errors of the normal samples plus a hyperparameter times one standart deviation of the reconstruction loss of normal samples. We evaluate the anomaly detection classifier based on reconstruction error with our test dataset. The confusion matrix of Training and Test Dataset can be seen below:
 
 <img src="Plots/cmTraining.png" width="400"> <img src="Plots/cmTest.png" width="400">
 
